@@ -1,0 +1,36 @@
+{
+  "name": "drag-n-drop",
+  "version": "1.0.0",
+  "description": "Capture mouse position and allow drag n' drop of elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foligny/drag-n-drop.git"
+  },
+  "keywords": [
+    "react",
+    "drag",
+    "and",
+    "drop",
+    "capture",
+    "mouse",
+    "position"
+  ],
+  "author": "Francois Oligny-Lemieux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foligny/drag-n-drop/issues"
+  },
+  "homepage": "https://github.com/foligny/drag-n-drop#readme",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.18.0"
+  }
+}
