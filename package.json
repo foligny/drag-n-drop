@@ -1,5 +1,5 @@
 {
-  "name": "drag-n-drop",
+  "name": "capture-mouse",
   "version": "1.0.0",
   "description": "Capture mouse position and allow drag n' drop of elements",
   "main": "./dist/index.js",
