@@ -464,7 +464,13 @@ define(function (require) {
 		
 		T.onEvent('mouseup', els, function(event)
 		{
-         var element = event.currentTarget;
+			var element = event.currentTarget;
+			stopDrag();	
+		});
+
+		// release drag if mouse released outside window
+		T.onEvent('mouseup', document, function(event)
+		{
 			stopDrag();	
 		});
 		
